@@ -1,0 +1,15 @@
+torch>=2.0
+torchaudio
+transformers
+datasets
+librosa
+soundfile
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+opensmile
+jiwer
+wandb
