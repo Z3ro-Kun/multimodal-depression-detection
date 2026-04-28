@@ -205,7 +205,7 @@ depression-detection/
 │   ├── train_audio_only.py        # Audio-only baseline with focal loss
 │   └── evaluate.py                # Comprehensive evaluation: F1, ROC-AUC, confusion matrix
 │
-├── 📂 figures/
+├── 📂 diagrams/
 │   ├── architecture_compact.pdf   # System architecture diagram
 │   ├── confusion_matrix.pdf       # Best model confusion matrix
 │   ├── stability_comparison.pdf   # Boxplot: variance across model types
@@ -554,12 +554,12 @@ Using transcript timestamps to extract only participant utterances:
 
 ## 🖼️ Figures
 
-All figures are pre-generated in the `figures/` directory. To regenerate:
+All figures are pre-generated in the `diagrams/` directory. To regenerate:
 
 ```bash
-python figures/generate_architecture.py    # System architecture diagram
-python figures/generate_confusion_matrix.py  # Best-model confusion matrix
-python figures/generate_stability_plot.py    # Variance comparison boxplot
+python diagrams/generate_architecture.py    # System architecture diagram
+python diagrams/generate_confusion_matrix.py  # Best-model confusion matrix
+python diagrams/generate_stability_plot.py    # Variance comparison boxplot
 ```
 
 ### Architecture Diagram
