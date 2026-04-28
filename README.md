@@ -563,15 +563,15 @@ python figures/generate_stability_plot.py    # Variance comparison boxplot
 ```
 
 ### Architecture Diagram
-![Architecture](figures/architecture_compact.pdf)
+![Architecture](diagrams/architecture_compact.pdf)
 *Hierarchical text encoding + segment-level audio encoding + late fusion*
 
 ### Stability Comparison
-![Stability](figures/stability_comparison.pdf)
+![Stability](diagrams/stability_comparison.pdf)
 *Boxplot showing 5× variance reduction from fusion vs. text-only*
 
 ### Confusion Matrix (Best Model)
-![Confusion Matrix](figures/confusion_matrix.pdf)
+![Confusion Matrix](diagrams/confusion_matrix.pdf)
 *Seed 999: TN=19, FP=4, FN=3, TP=9 — Macro F1=0.782*
 
 ---
